@@ -10,6 +10,6 @@ describe('test', () => {
     it('Create an account link should navigate to the Create New Customer Account page', () => {
         homePage.clickCreateAnAccountLink();
 
-        createAnAcountPage.elements.header().should('have.text', 'Create New Customer Accoun');
+        createAnAcountPage.elements.header().should('have.text', 'Create New Customer Account');
     });
 });
