@@ -17,7 +17,7 @@ describe('test', () => {
         homePage.elements.createAnAccountLink().should('have.text', 'Create an Account');
     });
 
-    it.only('Verify the Sign In link is displayed on the Home Page', () => {
+    it('Verify the Sign In link is displayed on the Home Page', () => {
       homePage.elements.signInLink().should('be.visible');
     });
 });
